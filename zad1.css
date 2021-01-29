@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #67D0FF, #0076FF);
+    padding: 0 !important;
+    margin-top: -25px;
+}
+.navbar-brand
+{
+    padding-left: 20;
+}
+.navbar-nav li
+{
+    padding: 0 60px;
+}
+.navbar-nav li a
+{
+    color: #000000;
+}
+.row
+{
+    padding: 30;
+    margin: 30;
+}
+input
+{
+    width: 50px;
+}

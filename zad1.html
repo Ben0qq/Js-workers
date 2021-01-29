@@ -1,0 +1,56 @@
+
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"></html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content =" "width="device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content = "ie-edge" />
+    <title>Gierki komputerowe</title>
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/locations-redesign/48/Games1-512.png">
+    <link rel="stylesheet" href="zad1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">PIW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="zad1.html">Zad 1</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <section id="content">
+      <input type="text" id="inputQueue" name="inputQueue" value="" />
+      <label for="inputQueue">- długość kolejki</label>
+      <button id="submitQueue" onclick="changeQueue()">Wyślij</button>
+      <input type="text" id="gaussParameter" name="gaussParameter" value="" />
+      <label for="gaussParameter">- Średnia</label>
+      <button id="submitGauss" onclick="changeGauss()">Wyślij</button>
+      <input type="text" id="gaussParameter2" name="gaussParameter2" value="" />
+      <label for="gaussParameter2">- Odchylenie standardowe</label>
+      <button id="submitGauss2" onclick="changeGauss2()">Wyślij</button>
+      <input type="text" id="exponentialParameter" name="exponentialParameter" value="" />
+      <label for="exponentialParameter">- Lambda</label>
+      <button id="submitExp" onclick="changeExp()">Wyślij</button>
+      <input type="text" id="exponentialParameter2" name="exponentialParameter2" value="" />
+      <label for="exponentialParameter2">- Skala</label>
+      <button id="submitExp2" onclick="changeExp2()">Wyślij</button><br>
+      <h2 id="official1">Urzędnik A:</h2><br>
+      <h2 id="official2">Urzędnik B:</h2><br>
+      <h2 id="official3">Urzędnik C:</h2><br>
+      <h2 id="queue">Długość kolejki:</h2><br>
+      <h2 id="succeeded">Obsłużeni:</h2><br>
+      <h2 id="failed">Odrzuceni:</h2>
+    </section>
+
+</body>
+<script src="zad1.js"></script>
+</html>
